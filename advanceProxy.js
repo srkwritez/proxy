@@ -5,5 +5,5 @@ function FindProxyForURL(url, host) {
         return "PROXY 10.22.63.22:3000";
 
     // by default use no proxy
-    return "PROXY 10.22.63.22:3000";
+    return "DEFAULT";
 }
